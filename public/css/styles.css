@@ -75,7 +75,6 @@ body {
   margin-top: 80px;
   margin-bottom: 50px; }
 
-/*MIXIN PENDIENTE*/
 .destinos-imagen-1, .destinos-imagen-2, .destinos-imagen-3 {
   background-image: url("../../img/img-home-destino1.jpg");
   object-fit: cover;
