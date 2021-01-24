@@ -1,5 +1,3 @@
-$heading-color: #00f;
+@import 'sass/config/global.scss';
+@import 'partials/header.scss';
 
-h1 {
-  color: $heading-color;
-}
