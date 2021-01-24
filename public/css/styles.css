@@ -237,3 +237,9 @@ body {
 .info-comment {
   font-size: 24px;
   font-weight: bold; }
+
+.footer-video iframe {
+  margin: 70px 0; }
+
+.second-wrapper img {
+  max-width: 100%; }
