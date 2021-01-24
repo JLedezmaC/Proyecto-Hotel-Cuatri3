@@ -131,3 +131,48 @@ body {
   color: #000;
   background-color: #fff;
   border: 1px solid #000; }
+
+.main-room-title {
+  text-align: center; }
+
+.main-room-title h3 {
+  font-size: 36px;
+  margin-bottom: 15px; }
+
+.main-room-title p {
+  font-size: 24px; }
+
+.main-room {
+  display: flex; }
+
+.main-room_info h2 {
+  width: 100%;
+  font-size: 45px; }
+
+.main-room_info p {
+  width: 70%;
+  font-size: 25px;
+  padding-bottom: 25px; }
+
+.main-room_info {
+  padding-top: 95px;
+  width: 50%;
+  justify-content: space-between; }
+
+.main-room_img {
+  width: 50%;
+  justify-content: space-between; }
+
+.main-room_img img {
+  width: 775px;
+  height: 515px; }
+
+.main-room_info button {
+  background-color: #6ab187;
+  color: white;
+  padding: 15px 45px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer; }
