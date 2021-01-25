@@ -1,0 +1,94 @@
+.tabs {
+    max-width: 800px;
+    margin: 40px;
+}
+
+.tabs-title{
+    font-size: 100px;
+    padding-left: 35px;
+}
+
+
+.tabs-tablist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.tabs-tablist-item {
+    font-size: 20px ;
+    display: block;
+    padding: 20px 70px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #20948B;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #999;
+}
+
+.tabs-content {
+    padding: 20px;
+
+}
+
+.tabs-content-item{
+    margin-left: 20px;
+}
+
+.tabs-text{
+    font-size: 30px;
+    text-align: justify;
+}
+
+/* Estado (clases asignadas por Javascript) */
+
+.js-active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    color: #000;
+}
+
+.js-content-hidden {
+    display: none;
+}
+
+.hotel-box{
+    display: flex;
+}
+.box-hotel{
+    justify-content: space-between;
+    width: 506px;
+    height: 843px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.from{
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    font-weight: bold;
+
+}
+
+.point{
+    background-color: #6AB187;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 20px 40px;
+}
+
+.box-title{
+    font-size: 20px;
+}
