@@ -1,0 +1,40 @@
+.tabs {
+    max-width: 800px;
+    margin: 40px;
+}
+
+.tabs-tablist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.tabs-tablist-item {
+    display: block;
+    padding: 10px 20px;
+    color: #999;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #eee;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #999;
+}
+
+.tabs-content {
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+/* Estado (clases asignadas por Javascript) */
+
+.js-active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    color: #000;
+}
+
+.js-content-hidden {
+    display: none;
+}
