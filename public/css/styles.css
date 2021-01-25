@@ -560,3 +560,9 @@ body {
 
 .img-content-hidden {
   filter: blur(0px); }
+
+.backgound_ocean-destino-2 {
+  background-image: url("../../img/tokio-img1.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 1080px; }
