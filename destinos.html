@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="main-wrapper">
-            <div class="backgound_ocean">
+            <div class="backgound_ocean-destino">
                 <div class="second-wrapper">
                     <div class="header_logo">
                         <img src="img/logo-travelio.png" alt="Logo">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="tabs-info">
-                <h1>Las Vegas</h1>
+                <h1 class="tabs-title">Las Vegas</h1>
                 <div class="tabs">
                     <ul class="tabs-tablist">
                         <li><a href="#tab-1" class="tabs-tablist-item">Detalles</a></li>
@@ -35,37 +35,59 @@
                 </div>
                 <div class="tabs-content">
                     <div id="tab-1" class="tabs-content-item">
-                        <p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet
+                        <p class="tabs-text">Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet
                         fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus,
                         tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                        Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet
+                        fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
                     </div>
                     <div id="tab-2" class="tabs-content-item">
                         <div class="hotel-box">
-                            <div class="box-hotel-1">
-                                <img src="img/vegas-img-hotel-3.png" alt="hotel-1">
-                                <h3>Caesars Palace</h3>
-                                <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
-                                <button>9,2</button>
-                                <p>Desde</p>
-                                <p>$349</p>
+                            <div class="box-hotel">
+                                <div class="box-img-1">
+                                    <img src="img/vegas-img-hotel-3.png" alt="hotel-1">
+                                </div>
+                                <div class="box-text">
+                                    <h3 class="box-title">Caesars Palace</h3>
+                                    <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
+                                    <button class="point">9,2</button>
+                                    <div class="box-price">
+                                        <p class="from">Desde</p>
+                                        <p class="price">$349</p>
+                                    </div>
+                                </div>  
                             </div>
 
-                            <div class="box-hotel-2">
-                                <img src="img/vegas-img-hotel-2.png" alt="hotel-2">
-                                <h3>Venetian</h3>
-                                <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
-                                <button>9,2</button>
-                                <p>Desde</p>
-                                <p>$349</p>
+                            <div class="box-hotel">
+                                <div class="box-img-1">
+                                    <img src="img/vegas-img-hotel-2.png" alt="hotel-2">
+                                </div>
+                                
+                                <div class="box-text">
+                                    <h3 class="box-title">Venetian</h3>
+                                    <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
+                                    <button class="point">9,2</button>
+                                    <div class="box-price">
+                                        <p class="from">Desde</p>
+                                        <p class="price">$349</p>   
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="box-hotel-3">
-                                <img src="img/vegas-img-hotel-1.png" alt="hotel-3">
-                                <h3>Treasure Island </h3>
-                                <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
-                                <button>9,2</button>
-                                <p>Desde</p>
-                                <p>$349</p>
+                            <div class="box-hotel">
+                                <div class="box-img-1">
+                                    <img src="img/vegas-img-hotel-1.png" alt="hotel-3">
+                                </div>
+                                <div>
+                                    <h3 class="box-title">Treasure Island </h3>
+                                    <p> Steps from LINQ Promenade and 6 minutes by foot from High Roller. This 4.5-star resort is 0.8 mi (1.2 km) from Miracle Mile Shops and 4.5 mi (7.3 km) from Las Vegas Convention Center.</p>
+                                    <button class="point">9,2</button>
+                                    <div class="box-price">
+                                        <p class="from">Desde</p>
+                                        <p class="price">$349</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -73,20 +95,17 @@
             </div>
             <!--Contenedor gigante con todo el html-->
             <div class="gallery">
-                <h1>Gallery</h1>
+                <h2 class="gallery-title">Gallery</h2>
                 <!--Contenedor donde se va ver la imagen en grande-->
                 <div class="gallery-content">
                     <div id="img-1" class="gallery-content-img">
-                        <img id="bigImage" src="img/vegas-img1.png" alt="">
+                        <img id="bigImage" src="img/vegas-img.png" alt="auto">
                     </div>
                 </div>
-                <!--Contenedor grande con las 8 imagenes pequeñas-->
-                <!--Imagenes descargadas desde https://unsplash.com/--->
-                <!--Las imagenes son del mismo tamaño y de vista horizontal-->
                 <div class="wrapper-gallery clearfix">
                     <div class="gallery-prev clearfix">
                         <ul class="gallery-list">
-                            <li class="gallery-list-img"><img class="miniature"   src="img/vegas-img1.png"  alt="aurora"></li>
+                            <li class="gallery-list-img"><img class="miniature"   src="img/vegas-img.png"   alt="aurora"></li>
                             <li class="gallery-list-img"><img class="miniature"   src="img/vegas-img2.png"  alt="virus"></li>
                             <li class="gallery-list-img"><img class="miniature"   src="img/vegas-img3.png"  alt="text"></li>
                             <li class="gallery-list-img"><img class="miniature"   src="img/vegas-img4.png"  alt="plants" ></li>
@@ -95,6 +114,38 @@
                         </ul>
                     </div>
                 </div> 
+            </div>
+            <div class="footer clearfix">
+                <div class="second-wrapper">
+                    <div class="footer-text">
+                        <p class="footer_logo">TRAVELIO</p>
+                        <p class="destiny-word">Destinos</p>
+                        <br>
+                        <p>San José</p>
+                        <p>+506 84970601</p>
+                        <p>travelio@gmail.com</p>
+                        <p>2021 © Copyright </p>
+                    </div>
+                    <div class="footer-contact">
+                        <ul class="contact-list">
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social-list">
+                        <ul class="social-list">
+                        <li><img src="img/icon-facebook.png"><a href="#">Facebook</a></li>
+                        <li><img src="img/icon-twitter.png"><a href="#">Twitter</a></li>
+                        <li><img src="img/icon-instagram.png"><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <form class="form-email">
+                        <p>Suscribite para nuestras promociones</p>
+                        <input class="email" type="email" placeholder="Email">
+                        <button class="boton" type="submit">Ok</button>
+                    </form>
+                </div>
             </div>    
         </div>
         <script src="js/script.js"></script>
