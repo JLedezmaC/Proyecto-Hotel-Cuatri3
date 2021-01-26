@@ -401,6 +401,13 @@ body {
   background-repeat: no-repeat;
   height: 1080px; }
 
+.Ceasers-Palace {
+  background-image: url("../../img/Header Ceasers.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+  width: 100%; }
+
 .header_logo {
   display: inline-block; }
 
