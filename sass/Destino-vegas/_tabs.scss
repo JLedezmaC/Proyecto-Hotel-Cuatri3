@@ -62,7 +62,7 @@
 .box-hotel{
   justify-content: space-between;
   width: 506px;
-  height: 843px;
+  height: 875px;
   margin-left: 100px;
   position: relative;
   box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.55);
@@ -71,16 +71,17 @@
 
 .from{
   position: absolute;
-  right: 0;
-  bottom: 130px;
+  right: 20px;
+  bottom: 55px;
+  font-size: 18px;
 }
 
 .price{
   position: absolute;
-  right: 0;
-  bottom: 100px;
+  font-size: 16px;
+  right: 20px;
+  bottom: 25px;
   font-weight: bold;
-
 }
 
 .point{
@@ -88,9 +89,24 @@
   color: #fff;
   font-size: 20px;
   border: none;
-  padding: 20px 40px;
+  padding: 5px 25px;
+  border-radius: 4px;
 }
 
 .box-title{
-  font-size: 20px;
+  font-size: 36px;
+}
+
+.box-text{
+  width: 465px;
+  margin: 0 20px 0 20px;
+}
+
+.box-info{
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+
+.box-price{
+  right: 25xp;
 }
