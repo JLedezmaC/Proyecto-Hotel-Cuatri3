@@ -1,0 +1,47 @@
+// ESTILOS DE PÁGINA DE LAS VEGAS
+
+.backgound_ocean-destino {
+  background-image: url("../../img/las-vegas-welcome-sign.jpg");
+  background-repeat: no-repeat;
+  height: 1080px;
+  object-fit: cover;
+}
+
+.Ceasers-Palace {
+  background-image: url("../../img/Header\ Ceasers.jpg");
+  background-repeat: no-repeat;
+  height: 1080px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.header_logo {
+  display: inline-block;
+}
+
+.header_logo img {
+  height: 60px;
+  padding-top: 45px;
+  width: 210px;
+}
+
+.header_menu {
+  float: right;
+  padding-top: 45px;
+}
+
+.lista-header li {
+  font-size: 30px;
+  float: left;
+  list-style: none;
+  margin-left: 100px;
+}
+
+.lista-header a {
+  color: $white;
+  text-decoration: none;
+}
+
+.lista-header a:hover {
+  border-bottom: 2px solid $white;
+}
