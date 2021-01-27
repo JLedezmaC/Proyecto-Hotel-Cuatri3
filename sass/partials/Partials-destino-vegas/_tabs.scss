@@ -1,32 +1,33 @@
+// ESTILOS A LOS TABS
+
 .tabs {
-  max-width: 800px;
   margin: 40px;
+  max-width: 800px;
 }
 
-.tabs-title{
+.tabs-title {
   font-size: 100px;
   padding-left: 35px;
 }
 
-
 .tabs-tablist {
+  display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  display: flex;
   margin-bottom: -1px;
+  padding: 0;
 }
 
 .tabs-tablist-item {
-  font-size: 20px ;
-  display: block;
-  padding: 20px 70px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
   background-color: #20948B;
   border-radius: 5px 5px 0 0;
   border: 1px solid #999;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 70px;
+  text-decoration: none;
 }
 
 .tabs-content {
@@ -34,16 +35,16 @@
 
 }
 
-.tabs-content-item{
+.tabs-content-item {
   margin-left: 20px;
 }
 
-.tabs-text{
+.tabs-text {
   font-size: 30px;
   text-align: justify;
 }
 
-/* Estado (clases asignadas por Javascript) */
+
 
 .js-active {
   background-color: #fff;
@@ -55,58 +56,57 @@
   display: none;
 }
 
-.hotel-box{
+.hotel-box {
   display: flex;
 }
 
-.box-hotel{
-  justify-content: space-between;
-  width: 506px;
+.box-hotel {
+  box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.55);
   height: 875px;
+  justify-content: space-between;
   margin-left: 100px;
   position: relative;
-  box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.55);
-
+  width: 506px;
 }
 
-.from{
-  position: absolute;
-  right: 20px;
+.from {
   bottom: 55px;
   font-size: 18px;
-}
-
-.price{
   position: absolute;
-  font-size: 16px;
   right: 20px;
-  bottom: 25px;
-  font-weight: bold;
 }
 
-.point{
+.price {
+  bottom: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+}
+
+.point {
   background-color: #6AB187;
+  border-radius: 4px;
+  border: none;
   color: #fff;
   font-size: 20px;
-  border: none;
   padding: 5px 25px;
-  border-radius: 4px;
 }
 
-.box-title{
+.box-title {
   font-size: 36px;
 }
 
-.box-text{
-  width: 465px;
+.box-text {
   margin: 0 20px 0 20px;
+  width: 465px;
 }
 
-.box-info{
+.box-info {
   font-size: 18px;
   padding-bottom: 60px;
 }
 
-.box-price{
+.box-price {
   right: 25xp;
 }

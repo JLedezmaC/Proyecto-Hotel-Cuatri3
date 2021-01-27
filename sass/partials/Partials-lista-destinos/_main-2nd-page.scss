@@ -1,15 +1,15 @@
 //Header
 
 .background_orange{
-  background-color: #DE7A22;
+  background-color: $naranja;
 }
 
 .main-title-destiny h1{
-  color: white;
+  color: $white;
   font-size: 80px;
-  text-align: center;
-  padding: 170px 0 100px;
   margin: 0 auto;
+  padding: 170px 0 100px;
+  text-align: center;
 }
 
 //Lista de destinos
@@ -28,7 +28,7 @@
 }
 
 .box-destinos a:visited{
-  color: black;
+  color: $ancore-color;
 }
 
 //Contenido de destinos
@@ -63,17 +63,17 @@
 // destinos-boton-verde
 
 .box-destinos button {
-  background-color: #6AB187;
+  background-color: $verde-menta;
   border-radius: 4px;
   border: none;
-  color: white;
+  color: $white;
   margin: 17px 0 0 25px;
   padding: 5px 25px;
   position: absolute;
 }
 
-.box-destinos button:hover{
-  background-color: #20948B;
+.box-destinos button:hover {
+  background-color: $verde-turqueza;
 }
 
 //Destinos-comentarios
@@ -86,7 +86,7 @@
 
 // Destino precios
 
-.destinos-price{
+.destinos-price {
   float: right;
   font-weight: bold;
   font-size: 20px;

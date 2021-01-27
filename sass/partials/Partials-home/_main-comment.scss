@@ -1,19 +1,19 @@
-//Comentario de clientes title
+// Comentario de clientes title
 
-.main-comment-title{
+.main-comment-title {
   margin-top: 15px;
 }
 
 .main-comment-title h3 {
-  text-align: center;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .main-comment-title p {
-  text-align: center;
   font-size: 24px;
+  text-align: center;
 }
 
 //Background img
@@ -27,10 +27,10 @@
 }
 
 .client-img img {
+  height: 235px;
   padding-top: 75px;
   padding-left: 175px;
   width: 245px;
-  height: 235px;
 }
 
 
@@ -38,8 +38,8 @@
 
 .main-star-icons {
   position: absolute;
-  top: 140px;
   right: 400px;
+  top: 140px;
 }
 .main-star-icons img {
   width: 24px;
@@ -49,38 +49,34 @@
 
 //Informacion
 
-.main-comment-text{
-
-  position: absolute;
-  width: 645px;
+.main-comment-text {
   bottom: 0;
-  right: 400px;
   padding-bottom: 85px;
+  position: absolute;
+  right: 400px;
+  width: 645px;
 }
 
 .main-comment-info p {
-  color: white;
+  color: $white;
 }
 
-.info-date{
-
+.info-date {
   font-size: 16px;
   font-weight: lighter;
 }
 
-.info-name{
-
+.info-name {
   font-size: 26px;
   font-weight: bold;
 }
 
-.info-country{
-
+.info-country {
   font-size: 16px;
   font-weight: lighter;
 }
 
-.info-comment{
+.info-comment {
   font-size: 24px;
   font-weight: bold;
 }

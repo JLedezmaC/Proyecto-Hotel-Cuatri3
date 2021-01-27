@@ -1,19 +1,21 @@
-.background-contact{
+// ESTILOS DE CONTACTO
+
+.background-contact {
   background-image: url("../../img/contact-beach.jpg");
-  object-fit: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
   width: 50%;
 }
 
 
-.contact{
+.contact {
   display: flex;
 }
 
-.contact-title{
-  justify-content: space-between;
-  color: white;
+.contact-title {
+  color: $white;
   font-size: 90px;
+  justify-content: space-between;
   margin-left: 70px;
   padding-top: 115px;
   padding-bottom: 45px
@@ -23,80 +25,80 @@
   margin-bottom: 0;
 }
 
-.contact-CEO p{
+.contact-CEO p {
   font-size: 16px;
   line-height: 32px;
   margin-bottom: 15px;
 }
 
-.contact-CEO{
+.contact-CEO {
   position: relative;
 }
 
-.info-ceo{
-  position: absolute;
-  left: 116px;
+.info-ceo {
   bottom: 45px;
+  left: 116px;
+  position: absolute;
+
 }
 
-.contact-CEO img:nth-child(4){
-  position:absolute;
-  right: 60px;
+.contact-CEO img:nth-child(4) {
   bottom: 56px;
   height: 44px;
+  position:absolute;
+  right: 60px;
   width: 100px;
 }
 
-.form{
-  width: 50%;
+.form {
   justify-content: space-between;
   padding: 65px 0px 0 200px;
+  width: 50%;
 }
 
-.form h2{
+.form h2 {
   font-size: 50px;
 }
 
-.form h3{
+.form h3 {
   margin: 0 0 0 10px;
 }
-.form input{
-  background-color: #fcfcfd;
-  border: 1px solid #FEA95A;
-  width: 343px;
+.form input {
+  color: $gris;
+  background-color: $input-color;
+  border: 1px solid $input-border;
   height: 40px;
   margin-bottom: 15px;
-  color: gray;
+  width: 343px;
 }
 
-.form form:last-child{
+.form form:last-child {
   height: 50px;
 }
 
-.form textarea{
-  background-color: #fcfcfd;
-  border: 1px solid #FEA95A;
-  width: 343px;
+.form textarea {
+  background-color: $input-color;
+  border: 1px solid $input-border;
   height: 80px;
+  width: 343px;
   margin-bottom: 15px;
 }
 
-.enviar{
-  background-color: #FEA95A;
-  color: white;
+.enviar {
+  color: $white;
+  background-color: $input-border;
   border: none;
   border-radius: 4px;
-  width: 350px;
   height: 40px;
+  width: 350px;
 }
 
-.contactenos{
+.contactenos {
   margin-top: 100px;
 }
-
-.backgound_ocean-contact{
+.backgound_ocean-contact {
   background-image: url("../../img/Home-header.png");
-  object-fit: cover;
   background-repeat: no-repeat;
   height: 800px;
+  object-fit: cover;
 }

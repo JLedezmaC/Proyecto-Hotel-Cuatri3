@@ -1,0 +1,60 @@
+
+// ESTILOS DE LA PÁGINA GALERÍA
+
+.gallery-title {
+  font-size: 60px;
+  text-align: center;
+}
+.gallery-content {
+  -webkit-box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+  box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+  height: 400px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 600px;
+}
+.wrapper-gallery {
+  margin-left: 20px;
+}
+.gallery-list {
+  display: block;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.gallery-list img:hover {
+  -webkit-box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+  box-shadow: 0px 1px 118px -10px rgba(255,255,255,1);
+}
+.gallery-list li {
+  float: left;
+  margin-top: 300px;
+  width: 250px;
+  height: 200px;
+}
+.gallery-list li + li {
+  margin-left: 60px;
+}
+
+.gallery-list-img img {
+  height: 200px;
+  width: 300px;
+
+}
+
+.img-content-hidden {
+  filter: blur(0px);
+}
+
+.img-active {
+  filter: blur(5px);
+}
+
+.img-content-hidden {
+  filter: blur(0px);
+
+}
